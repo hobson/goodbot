@@ -74,11 +74,11 @@ PLUGIN_BLACKLIST = [
 
 # If will isn't accessible at localhost, you must set this for his keepalive to work.
 # Note no trailing slash.
-# PUBLIC_URL = "http://my-will.herokuapp.com"
+PUBLIC_URL = 'http://localhost:9000'
 
 # Port to bind the web server to (defaults to $PORT, then 80.)
 # Set > 1024 to run without elevated permission.
-# HTTPSERVER_PORT = "9000"
+HTTPSERVER_PORT = "9000"
 
 
 # ------------------------------------------------------------------------------------
@@ -86,12 +86,11 @@ PLUGIN_BLACKLIST = [
 # ------------------------------------------------------------------------------------
 
 # The list of rooms will should join.  Default is all rooms.
-ROOMS = ['Totalgood',]
-
+ROOMS = ['Testing Will', 'Totalgood',]
 
 # The room will will talk to if the trigger is a webhook and he isn't told a specific room. 
 # Default is the first of ROOMS.
-# DEFAULT_ROOM = 'Testing, Will Kahuna'
+DEFAULT_ROOM = 'Testing Will'
 
 
 # Fully-qualified folders to look for templates in, beyond the two that 

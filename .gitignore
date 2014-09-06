@@ -1,4 +1,5 @@
 *.py[cod]
 pip-log.txt
 shelf.db
-    
+    *.rdb
+*.out
