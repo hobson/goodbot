@@ -48,16 +48,16 @@
 
 PLUGINS = [
     # Built-ins
-    "will.plugins.admin",
+#    "will.plugins.admin",
     "will.plugins.chat_room",
-    "will.plugins.devops",
+#    "will.plugins.devops",
     "will.plugins.friendly",
     "will.plugins.help",
-    "will.plugins.productivity",
-    "will.plugins.web",
+#    "will.plugins.productivity",
+#    "will.plugins.web",
 
     # All plugins in your project.
-    "plugins",
+#    "plugins",
 ]
 
 # Don't load any of the plugins in this list.  Same options as above.
